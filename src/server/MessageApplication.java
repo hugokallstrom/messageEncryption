@@ -8,12 +8,12 @@ import org.restlet.Application;
 import org.restlet.Router;
 import org.restlet.Restlet;
 
-public class FirstResourceApplication extends Application {
+public class MessageApplication extends Application {
 
     private final Map<String, ArrayList<byte[]>> byteMessages;
 
-    public FirstResourceApplication() {
-        byteMessages = new ConcurrentHashMap<String, ArrayList<byte[]>>();
+    public MessageApplication() {
+        byteMessages = new ConcurrentHashMap<>();
     }
 
     @Override
@@ -24,6 +24,7 @@ public class FirstResourceApplication extends Application {
         router.attach("/messages/s/{keyword}", SearchResource.class);
         return router;
     }
+
     public Map<String, ArrayList<byte[]>> getByteMessages() {
         return byteMessages;
     }

@@ -3,15 +3,13 @@ package client;
 import org.restlet.data.*;
 import org.restlet.resource.InputRepresentation;
 import org.restlet.resource.Representation;
+import org.restlet.resource.ResourceException;
 import proto.Messages;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * Created by hugo on 11/17/14.
- */
 public class Client {
 
     private org.restlet.Client client;
@@ -22,10 +20,10 @@ public class Client {
         parser = new MessageParser();
     }
 
-    public void post(Reference uri, Messages.AMessage message) {
+    public void post(Reference uri, Messages.AMessage message) throws ResourceException {
         Representation representation = createPostRepresentation(message, uri);
         Response response = client.post(uri, representation);
-        checkResponse(response);
+        checkPostResponse(response);
     }
 
     private Representation createPostRepresentation(Messages.AMessage message, Reference messageUri) {
@@ -36,12 +34,12 @@ public class Client {
         return representation;
     }
 
-    public void get(Reference uri) throws IOException {
+    public void get(Reference uri) throws IOException, ResourceException {
         Response response = client.get(uri);
+        checkGetResponse(response);
         Representation representation = response.getEntity();
         InputStream inputStream = representation.getStream();
-        if(checkResponse(response))
-            parser.parseMessageList(inputStream);
+        parser.parseMessageList(inputStream);
     }
 
     public Reference getPostReference() {
@@ -56,14 +54,21 @@ public class Client {
         return new Reference("http://localhost:8182/messages/s/" + keyword);
     }
 
-    private boolean checkResponse(Response response) {
-        if (response.getStatus().isSuccess()) {
+    private void checkPostResponse(Response response) throws ResourceException {
+        if(response.getStatus().isSuccess()) {
             String identifier = response.getEntity().getIdentifier().getIdentifier();
-            System.out.println(identifier);
-            return true;
+            System.out.println("Post successful, identifier: " + identifier);
         } else {
-            return false;
+            throw new ResourceException(response.getStatus().getCode());
         }
+    }
+
+    private void checkGetResponse(Response response) throws ResourceException {
+       if (response.getStatus().isSuccess()) {
+           System.out.println("Get successful");
+       } else {
+           throw new ResourceException(response.getStatus().getCode());
+       }
     }
 
 }

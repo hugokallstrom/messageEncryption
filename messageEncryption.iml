@@ -22,6 +22,259 @@
         <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES />
+        <JAVADOC>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/docs/api" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/docs/ext" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/docs/gwt" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/docs/nre" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet.gwt" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet.example" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet.ext.atom_1.0" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet.ext.jaxb_2.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet.ext.jibx_1.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet.ext.json_2.0" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet.ext.wadl_1.0" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet.ext.jaxrs_1.0" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet.ext.spring_2.5" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.net" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.ssl" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet.ext.velocity_1.5" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet.ext.fileupload_1.2" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/org.restlet.ext.freemarker_2.3" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.gwt_1.5" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.jdbc_3.0" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.xdb_11.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.jetty_6.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.oauth_1.0" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.simple_3.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.spring_2.5" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.grizzly_1.8" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.servlet_2.5" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.javamail_1.4" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/src/com.noelios.restlet.ext.httpclient_3.1" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.dbcp_1.2/org.apache.commons.dbcp.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.cli_1.1" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.cli_1.1" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.codec_1.3" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.codec_1.3" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.collections_3.2" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.collections_3.2" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.dbcp_1.2" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.dbcp_1.2" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.fileupload_1.2" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.fileupload_1.2" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.httpclient_3.1" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.httpclient_3.1" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.io_1.3" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.io_1.3" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.lang_2.3" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.lang_2.3" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.logging_1.1" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.logging_1.1" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.pool_1.3" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.pool_1.3" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.velocity_1.5" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.velocity_1.5" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.activation_1.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.mail_1.4" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.servlet_2.5" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.ws.rs_1.0" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.xml.bind_2.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.xml.stream_1.0" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.ws.rs_1.0" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.activation_1.1" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.mail_1.4" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.servlet_2.5" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.ws.rs_1.0" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.xml.bind_2.1" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.xml.stream_1.0" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.ws.rs_1.0" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/com.db4o_7.4" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/com.sun.grizzly_1.8" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/edu.purdue.cs.bloat_1.0" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.activation_1.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.mail_1.4" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.servlet_2.5" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.ws.rs_1.0" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.xml.bind_2.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.xml.stream_1.0" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/net.oauth_1.0" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.cli_1.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.codec_1.3" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.collections_3.2" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.dbcp_1.2" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.fileupload_1.2" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.httpclient_3.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.io_1.3" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.lang_2.3" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.logging_1.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.pool_1.3" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.velocity_1.5" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.freemarker_2.3" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.jibx_1.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.jsslutils_0.5" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.mortbay.jetty_6.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.mozilla.rhino_1.7" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.simpleframework_3.1" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.springframework_2.5" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.tanukisoftware.wrapper_3.2" />
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.json_2.0" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.ws.rs_1.0" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/com.db4o_7.4" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/com.sun.grizzly_1.8" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/edu.purdue.cs.bloat_1.0" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.activation_1.1" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.mail_1.4" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.servlet_2.5" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.ws.rs_1.0" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.xml.bind_2.1" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.xml.stream_1.0" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/net.oauth_1.0" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.cli_1.1" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.codec_1.3" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.collections_3.2" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.dbcp_1.2" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.fileupload_1.2" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.httpclient_3.1" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.io_1.3" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.lang_2.3" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.logging_1.1" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.commons.pool_1.3" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.apache.velocity_1.5" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.freemarker_2.3" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.jibx_1.1" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.json_2.0" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.jsslutils_0.5" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.mortbay.jetty_6.1" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.mozilla.rhino_1.7" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.simpleframework_3.1" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.springframework_2.5" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/org.tanukisoftware.wrapper_3.2" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../assignment1/RESTLETS_HOME/lib/javax.ws.rs_1.0" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>
 

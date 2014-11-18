@@ -10,6 +10,7 @@ import java.util.UUID;
  * Created by hugo on 11/17/14.
  */
 public class ProtoMessage {
+
     private Messages.AMessage.Builder messageBuilder;
 
     public ProtoMessage() {
@@ -20,7 +21,7 @@ public class ProtoMessage {
 
     public void setSender(String sender) throws IllegalArgumentException {
         if(!validateField(sender)) {
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("Sender needs to be between 1-255 characters");
         } else {
             messageBuilder.setSender(sender);
         }
@@ -32,7 +33,7 @@ public class ProtoMessage {
 
     public void setTopic(String topic) throws IllegalArgumentException {
         if(!validateField(topic)) {
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("Topic needs to be between 1-255 characters");
         } else {
             messageBuilder.setTopic(topic);
         }
@@ -44,7 +45,7 @@ public class ProtoMessage {
 
     public void setContent(String content) throws IllegalArgumentException {
         if(!validateContent(content)) {
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("Content needs to be between 0-65536 characters");
         } else {
             messageBuilder.setContent(content);
         }
@@ -56,7 +57,7 @@ public class ProtoMessage {
 
     public void setRecipient(String recipient) throws IllegalArgumentException {
         if(!validateContent(recipient)) {
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("Recipient needs to be between 1-255 characters");
         } else {
             messageBuilder.setRecipient(recipient);
         }
@@ -66,7 +67,7 @@ public class ProtoMessage {
         return messageBuilder.getRecipient();
     }
 
-    public void generateTimeStamp() {
+    private void generateTimeStamp() {
         Date date = new Date();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd h:mm:ss a");
         messageBuilder.setTimeStamp(sdf.format(date));

@@ -14,6 +14,6 @@ public abstract class BaseResource extends Resource {
     }
 
     protected Map<String, ArrayList<byte[]>> getByteMessages() {
-        return ((FirstResourceApplication) getApplication()).getByteMessages();
+        return ((MessageApplication) getApplication()).getByteMessages();
     }
 }
